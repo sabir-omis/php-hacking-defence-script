@@ -1,8 +1,8 @@
 <?php
 /*
 SHAH DEFENCE HACKING SCRIPT  
-DEVELOP BY: SABIRSHAH.BSIT@GMAIL.COM +923481903589
-VERION: 1.0
+DEVELOP BY: webniam@gmail.com VN: +84396522598 PAK: +923481903589
+FREE VERION: 1.0
 ######### 
 How to use this?
 Answer: Require or Include this file at the top of every page.
@@ -67,8 +67,36 @@ function isHackingAvailible($PathHackingCheck)
 if (isHackingAvailible($PathHackingCheck))
 {
 echo "Hacking found....";
-header("location: http://webniam.com/404.php"); // CHANGE WHERE YOU WANT TO MOVE THE HACKER
+/* 
+Here what you want to do, If save the Send email to admin or save in database
+OR 
+get the IP, Time, Date and create the cookies If this user try again the hacking injection 
+so you can block them for your site like this: IP: 1234567890 and Cookies: 364275 one time try to hacking the wesite. 
+so after one day he come again and try another injection. and their IP: 123456789 or differing but cookies: 364275 is same, 
+You can block them from at the top of header you have json file when user visit your website at the first it will be checking
+if user is in block list or not. how to recognize the user so you can buy our paid version of this hacking defence script. 
+You can buy our paid version have already these things.
+*/
+header("location: http://webniam.com/404.php"); // CHANGE WHERE YOU WANT TO REDIRECT THE HACKER
 die(); 
 exit();
 }
 ?>
+<!-- 
+Buy now our paid version for your website: 
+One time buy. 
+No third party. 
+No load, 
+No edit, 
+No changing, 
+No integration, 
+No installation, 
+Easy to use, 
+All functionality, 
+Auto recognize user, 
+Auto block user, 
+Auto Save history. 
+With strong encryption. 
+99% guarantee to secure your website with all pages. 
+Compatible for all version of PHP.
+-- >
